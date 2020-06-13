@@ -1,7 +1,7 @@
 # These settings are synced to GitHub by https://probot.github.io/apps/settings/
 
 repository:
-  default_branch: "master"
+  default_branch: "main"
   delete_branch_on_merge: true
   private: false
   allow_squash_merge: true
@@ -54,7 +54,7 @@ labels:
     description: ""
 
 branches:
-  - name: "master"
+  - name: "main"
     protection:
       enforce_admins: false
       required_status_checks: null
