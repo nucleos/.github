@@ -31,7 +31,6 @@ labels:
   - name: "Enhancement"
     color: "#5fb2d8"
     description: ""
-    oldname: "dependency"
 
   - name: "Feature Request"
     color: "#0e8a16"
@@ -46,7 +45,6 @@ labels:
   - name: "Invalid"
     color: "#e6e6e6"
     description: ""
-    oldname: "invalid"
 
   - name: "Question"
     color: "#cc317c"
