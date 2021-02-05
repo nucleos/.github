@@ -64,7 +64,7 @@ labels:
     description: ""
 
 branches:
-  - name: "main"
+  - name: "*.x"
     protection:
       enforce_admins: false
       required_status_checks: null
