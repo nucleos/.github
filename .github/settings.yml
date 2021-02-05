@@ -13,44 +13,54 @@ repository:
   has_wiki: false
 
 labels:
+  - name: "BC Break"
+    color: "#ff0000"
+    description: ""
+    oldname: "bc break"
+
+  - name: "Bug"
+    color: "#fc2929"
+    description: ""
+    oldname: "bugfix"
+
+  - name: "Documentation"
+    color: "#fbca04"
+    description: ""
+    oldname: "docs"
+
+  - name: "Enhancement"
+    color: "#5fb2d8"
+    description: ""
+    oldname: "dependency"
+
+  - name: "Feature Request"
+    color: "#0e8a16"
+    description: ""
+    oldname: "feature"
+
+  - name: "Help Wanted"
+    color: "#159818"
+    description: ""
+    oldname: "help wanted"
+
+  - name: "Invalid"
+    color: "#e6e6e6"
+    description: ""
+    oldname: "invalid"
+
+  - name: "Question"
+    color: "#cc317c"
+    description: ""
+    oldname: "question"
+
+  # Technical
   - name: "automerge"
     color: "#ededed"
     description: ""
-    
-  - name: "bc break"
-    color: "#ff0000"
-    description: ""
-    
-  - name: "bugfix"
-    color: "#fc2929"
-    description: ""
-    
+
+  # Legacy
   - name: "dependency"
     color: "#5fb2d8"
-    description: ""
-    
-  - name: "docs"
-    color: "#fbca04"
-    description: ""
-    
-  - name: "feature"
-    color: "#0e8a16"
-    description: ""
-    
-  - name: "help wanted"
-    color: "#159818"
-    description: ""
-    
-  - name: "invalid"
-    color: "#e6e6e6"
-    description: ""
-    
-  - name: "pedantic"
-    color: "#DDDDDD"
-    description: ""
-    
-  - name: "question"
-    color: "#cc317c"
     description: ""
 
 branches:
