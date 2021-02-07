@@ -16,17 +16,14 @@ labels:
   - name: "BC Break"
     color: "#ff0000"
     description: ""
-    oldname: "bc break"
 
   - name: "Bug"
     color: "#fc2929"
     description: ""
-    oldname: "bugfix"
 
   - name: "Documentation"
     color: "#fbca04"
     description: ""
-    oldname: "docs"
 
   - name: "Enhancement"
     color: "#5fb2d8"
@@ -35,12 +32,10 @@ labels:
   - name: "Feature Request"
     color: "#0e8a16"
     description: ""
-    oldname: "feature"
 
   - name: "Help Wanted"
     color: "#159818"
     description: ""
-    oldname: "help wanted"
 
   - name: "Invalid"
     color: "#e6e6e6"
@@ -49,7 +44,6 @@ labels:
   - name: "Question"
     color: "#cc317c"
     description: ""
-    oldname: "question"
 
   # Technical
   - name: "automerge"
