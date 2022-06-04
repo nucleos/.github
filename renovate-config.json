@@ -1,25 +1,32 @@
 {
-    "extends": [
-        "config:base",
-        ":preserveSemverRanges"
-    ],
-    "packageRules": [
-        {
-            "matchDepTypes": [
-                "dependency"
-            ],
-            "automerge": true,
-            "addLabels": [
-                "dependency"
-            ]
-        },
-        {
-            "matchDepTypes": [
-                "devDependencies",
-                "optionalDependencies"
-            ],
-            "automerge": true,
-            "addLabels": []
-        }
-    ]
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependency"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "dependency"
+      ]
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies",
+        "optionalDependencies"
+      ],
+      "automerge": true,
+      "addLabels": []
+    },
+    {
+      "matchPackageNames": [
+        "github-actions"
+      ],
+      "automerge": true,
+      "addLabels": []
+    }
+  ]
 }
