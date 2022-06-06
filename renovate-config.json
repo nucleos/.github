@@ -22,7 +22,7 @@
       "addLabels": []
     },
     {
-      "matchPackageNames": [
+      "matchManagers": [
         "github-actions"
       ],
       "automerge": true,
